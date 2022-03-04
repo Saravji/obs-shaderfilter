@@ -6,7 +6,7 @@ git clone --recursive https://github.com/obsproject/obs-studio.git
 
 git clone https://github.com/Saravji/obs-shaderfilter.git
 echo "add_subdirectory(obs-shaderfilter)" >> ./obs-studio/plugins/CMakeLists.txt
-
+cp -R ./obs-shaderfilter ./obs-studio/plugins/obs-shaderfilter
 
 cd obs-studio
 mkdir build && cd build
